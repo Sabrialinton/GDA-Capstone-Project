@@ -146,7 +146,17 @@ There are some rows with missing values in the start_station_name, end_station_n
 
 **Step 5: Share**
 
+The visualizations can be found [here](https://public.tableau.com/app/profile/sabria.linton/viz/CapstoneProjectDashboard_16849647723620/Dashboard1).
+
 **Step 6: Act**
+
+Findings:
+- The average ride time on weekends is greater than that of weekdays.
+- Overall, Casual Riders ride more than members.
+- The months of April through October are the busiest for both Casual Riders and Members.
+
+Recommendations: 
+1. 
 
 
 
