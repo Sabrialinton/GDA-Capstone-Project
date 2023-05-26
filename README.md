@@ -151,14 +151,12 @@ The visualizations can be found [here](https://public.tableau.com/app/profile/sa
 **Step 6: Act**
 
 Findings:
-- The average ride time on weekends is greater than that of weekdays.
-- Overall, Casual Riders ride more than members.
-- The months of April through October are the busiest for both Casual Riders and Members.
+- Weekend rides have a longer average duration compared to weekdays for both Casual Riders and Members.
+- In general, Casual Riders ride more frequently than Members.
+- Both Casual Riders and Members experience peak activity during the months of April through October.
 
 Recommendations: 
-1. 
-
-
-
-
+1. Since Casual Riders ride more overall, consider running targeted promotions or discounts to encourage Casual Riders to convert to Members.
+2. While Casual Riders ride more overall, it's essential to focus on retaining and engaging Members. Offer loyalty rewards or exclusive perks for Members to encourage them to ride more frequently.
+3. Since the months of April through October are the busiest for both Casual Riders and Members, leverage this peak period to enhance marketing efforts. Launch targeted advertising campaigns across various channels and social media, highlighting the benefits of riding during this time, such as favorable weather conditions or possible events happening during these months.
  
