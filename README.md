@@ -69,17 +69,17 @@ There are some rows with missing values in the start_station_name, end_station_n
 
 ```
 > colnames(all_data)
-> [1] "ride_id"       
-> [2] "rideable_type" 
-> [3] "started_at"    
-> [4] "ended_at"      
-> [5] "start_lat"    
-> [6] "start_lng"     
-> [7] "end_lat"       
-> [8] "end_lng"       
-> [9] "member_casual" 
-> [10] "day_of_week"  
-> [11] "ride_time"  
+[1] "ride_id"       
+[2] "rideable_type" 
+[3] "started_at"    
+[4] "ended_at"      
+[5] "start_lat"    
+[6] "start_lng"     
+[7] "end_lat"       
+[8] "end_lng"       
+[9] "member_casual" 
+[10] "day_of_week"  
+[11] "ride_time"  
 ```
 
 **Addition of columns that list the date, month, day, and year of each ride:**
@@ -95,14 +95,14 @@ There are some rows with missing values in the start_station_name, end_station_n
 **Convert "ride_time" to numeric so calculations can be run on the data**
 ```
 > is.numeric(all_data$ride_time)
-> [1] FALSE
+[1] FALSE
 ```
 ```
 > all_data$ride_time <- as.numeric(as.character(all_data$ride_time))
 ```
 ```
 > is.numeric(all_data$ride_time)
-> [1] TRUE
+[1] TRUE
 ```
 
 **Step 4: Analyze** 
@@ -119,15 +119,12 @@ There are some rows with missing values in the start_station_name, end_station_n
 > aggregate(all_data$ride_time ~ all_data$member_casual, FUN = mean)
 1                 casual            1725.24
 2                 member             747.99
->
 > aggregate(all_data$ride_time ~ all_data$member_casual, FUN = median)
 1                 casual                763
 2                 member                518
->
 > aggregate(all_data$ride_time ~ all_data$member_casual, FUN = max)
 1                 casual            2483235
 2                 member              93594
->
 > aggregate(all_data$ride_time ~ all_data$member_casual, FUN = min)
 1                 casual                  1
 2                 member                  1
